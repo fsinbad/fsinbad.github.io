@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sam Cai</title>
+    <script src="index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="info">
+        <h1>Sam Cai</h1>
+        <ul>
+          <li><a class="external" href="https://github.com/fsinbad">GitHub</a></li>
+        </ul>
+      </div>
+      <div id="terminal">
+        <div class="drag-bar">
+          <div class="action red"></div>
+          <div class="action yellow"></div>
+          <div class="action green"></div>
+        </div>
+        <div id="display">
+          <div id="writer-container" class="row">
+            <input id="writer" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="wrapper-bottom">
+      <div id="projects">
+        <div class="card">
+          <h2><a class="external" href="http://coinplus.ai/miner/">coinplus.ai</a></h2>
+          <span>新一代7nm 技术数字货币云算力 鲲鹏云算</span>
+        </div>
+      </div>
+      <div id="timeline">
+        <div class="range">
+          <div class="line">
+            <span class="tag">
+              <a href="http://coinplus.ai/miner/">coinplus.ai</a>
+              (CTO)
+            </span>
+          </div>
+        </div>
+        <span class="label">2017</span>
+      </div>
+      <div id="skills">
+        <div class="skills-row">
+          <div class="skill-row">
+            <span class="skill">Javascript</span>
+            <div class="skill-bar js"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">Node.js</span>
+            <div class="skill-bar node"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">Elm</span>
+            <div class="skill-bar elm"></div>
+          </div>
+        </div>
+        <div class="skills-row">
+          <div class="skill-row">
+            <span class="skill">React</span>
+            <div class="skill-bar react"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">Redux</span>
+            <div class="skill-bar redux"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">AngularJS</span>
+            <div class="skill-bar ng"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">Functional</span>
+            <div class="skill-bar fp"></div>
+          </div>
+        </div>
+        <div class="skills-row">
+          <div class="skill-row">
+            <span class="skill">CSS/SCSS</span>
+            <div class="skill-bar css"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">React Native</span>
+            <div class="skill-bar rn"></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill">DevOps</span>
+            <div class="skill-bar devops"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
